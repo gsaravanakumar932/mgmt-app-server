@@ -126,4 +126,4 @@ To run the application locally:
 1. Ensure Docker and Docker Compose are installed on your system.
 2. Clone the repository:
    ```sh
-   git clone https://github.com/AtulFalle/User management-be.git
+   git clone [mgmt-app-server](https://github.com/gsaravanakumar932/mgmt-app-server/).git
