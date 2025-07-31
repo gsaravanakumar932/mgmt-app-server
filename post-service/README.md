@@ -1,11 +1,10 @@
-# User management app
+# Post-App Backend
 
-This repository has the User management microservices independent application. It has Docker Compose along with orchestration and includes services for authentication, an API gateway, load balancer and database management using MongoDB and PostgreSQL.
+This repository contains the backend services for the Post-App application, designed with a microservices architecture. It leverages Docker Compose for orchestration and includes services for authentication, post management, an API gateway, and database management using MongoDB and PostgreSQL.
 
-## Content Links
-- [Development Environment](#development-environment)
-- [Run the Application](#running-the-application)
-- [Architecture Pattern](#architecture-overview)
+## Table of Contents
+
+- [Architecture Overview](#architecture-overview)
 - [Services](#services)
   - [API Gateway](#api-gateway)
   - [Auth Service](#auth-service)
@@ -19,17 +18,16 @@ This repository has the User management microservices independent application. I
   - [PostgreSQL Configuration](#postgresql-configuration)
   - [Prometheus Configuration](#prometheus-configuration)
   - [Redis Configuration](#redis-configuration)
-
+- [Development Environment](#development-environment)
+- [Running the Application](#running-the-application)
 - [Monitoring](#monitoring)
 - [Database Management](#database-management)
-- [Contribution](#contribution)
+- [Contributing](#contributing)
 - [License](#license)
 
 ---
 
 ## Architecture Overview
-![image](https://github.com/user-attachments/assets/add7a7bb-0bd8-43fe-8ac5-89a0958d9c7a)
-
 
 The backend is structured into multiple services to promote scalability and maintainability:
 
@@ -126,4 +124,4 @@ To run the application locally:
 1. Ensure Docker and Docker Compose are installed on your system.
 2. Clone the repository:
    ```sh
-   git clone https://github.com/AtulFalle/User management-be.git
+   git clone https://github.com/AtulFalle/post-app-be.git
